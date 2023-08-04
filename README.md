@@ -23,8 +23,8 @@ Once you have the overlay completely configured the way you want it, close the p
 **Start on boot**
 
 On the blue iris pc create a shortcut of the python file and move the shortcut to the startup folder on windows.
-1. Press Windows +R from the keyboard.
-2. A dialog box will appear, type shell: common startup, and click on OK.
+1. Press Windows +R on the keyboard.
+2. A dialog box will appear, type ```shell:startup``` and click on OK.
 3. The Windows 10 startup folder will open.
 4. Move a shortcut of the python file to that folder.
 
