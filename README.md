@@ -12,6 +12,6 @@ Home assistant blue iris overlay
 
 
 # Tips
-Once you have the overlay completely configured the way you want it, change the name of ```overlay_v2.py``` to ```overlay_v2.pyw```. This will make it run in the background.
+Once you have the overlay completely configured the way you want it, close the python file then change the name of ```overlay_v2.py``` to ```overlay_v2.pyw``` then start the file again. This will make it run in the background.
 
 On the blue iris pc create a shortcut of the python file and move the shortcut to the startup folder on windows to start it on boot.
