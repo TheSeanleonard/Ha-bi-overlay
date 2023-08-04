@@ -1,5 +1,6 @@
 # MQTToverlay
 Home assistant blue iris overlay
+(Assuming Blue Iris is running on windows)
 
 # Install
 1) Run an MQTT server. I would recommend the Mosquitto broker built into home assistant.
