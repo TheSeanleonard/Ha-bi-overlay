@@ -8,7 +8,7 @@ Home assistant blue iris overlay
 3) Download and extract this repository anywhere on your blue iris pc.
 4) Edit the config area in the ```overlay_v2.py``` python file with the text editor of your choice.
 5) Run ```overlay_v2.py``` which will create a "values" folder. (Assuming you have [python](https://www.python.org/downloads/) installed)
-6) Set the macros source in blue iris to the text files in the values folder. This will set the macros to the value of the MQTT topic.
+6) Set the [macros](/images/page134.pdf) source in blue iris to the text files in the values folder. This will set the macros to the value of the MQTT topic.
 7) place macros over cameras.
 
 
