@@ -4,7 +4,7 @@ Home assistant blue iris overlay
 
 # Install
 1) Run an [MQTT](https://www.home-assistant.io/integrations/mqtt/) server. I would recommend the [Mosquitto broker](https://github.com/home-assistant/addons/tree/master/mosquitto) built into home assistant.
-2) I use node red in Home Assistant to set the values of the MQTT topics. (I have included an example flow)
+2) I use node red in Home Assistant to set the values of the MQTT topics. (I have included ```example flow.json```)
 3) Download and extract this repository anywhere on your blue iris pc.
 4) Edit the config area in the ```overlay_v2.py``` python file with the text editor of your choice.
 5) Run ```overlay_v2.py``` which will create a "values" folder. (Assuming you have [python](https://www.python.org/downloads/) installed)
