@@ -14,11 +14,11 @@ Home assistant blue iris overlay
 
 # Tips
 
-**Run in background**
+***Run in background***
 Once you have the overlay completely configured the way you want it, close the python file then change the name of ```overlay_v2.py``` to ```overlay_v2.pyw``` then start the file again. This will make it run in the background.
 
 
-**start on boot**
+***start on boot***
 On the blue iris pc create a shortcut of the python file and move the shortcut to the startup folder on windows.
 1. Press Windows +R from the keyboard.
 2. A dialog box will appear, type shell: common startup, and click on OK.
