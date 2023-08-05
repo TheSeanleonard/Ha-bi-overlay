@@ -7,9 +7,10 @@ Home assistant Blue Iris overlay
 2) I use node red in Home Assistant to set the values of the MQTT topics. (I have included ```example flow.json```)
 3) Download and extract this repository anywhere on your Blue Iris pc.
 4) Edit the config area in the ```overlay_v2.py``` python file with the text editor of your choice.
-5) Run ```overlay_v2.py``` which will create a "values" folder. (Assuming you have [python](https://www.python.org/downloads/) installed)
-6) Set the [macros](/images/page134.pdf) source in blue iris to the text files in the values folder. This will set the macros to the value of the MQTT topic.
-7) place macros over cameras.
+5) In a terminal on the Blue Iris pc run ```pip install paho-mqtt```. This will install required MQTT library. (Assuming you have [python](https://www.python.org/downloads/) installed)
+6) Run ```overlay_v2.py``` which will create a "values" folder.
+7) Set the [macros](/images/page134.pdf) source in blue iris to the text files in the values folder. This will set the macros to the value of the MQTT topic.
+8) place macros over cameras.
 
 
 # Tips
